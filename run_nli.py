@@ -35,9 +35,8 @@ model     = AutoModelForSequenceClassification.from_pretrained(NLI_MODEL).to(DEV
 model.eval()
 
 print(f"Label order: {model.config.id2label}")
-CONTRADICTION_IDX = 0  # update if id2label shows contradiction is not index 0
+CONTRADICTION_IDX = 2
 
-# --- Batched inference ---
 nli_scores = []
 n_batches  = -(-len(premises) // BATCH_SIZE)  # ceiling division
 
