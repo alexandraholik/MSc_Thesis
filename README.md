@@ -25,7 +25,7 @@ MSc_Thesis/
 ├── 05_korean_evaluation_fewshot.ipynb   # Few-shot variants on Korean test set
 ├── 06_error_analysis.ipynb              # Error analysis across methods/languages
 ├── data/                                # Processed datasets (see below)
-└── Thesis_4.json                        # Zotero bibliography (CSL-JSON)
+└── figures/
 ```
 
 ---
