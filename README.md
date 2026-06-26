@@ -6,6 +6,10 @@ The project evaluates LLM-as-a-judge methods for detecting contextomised headlin
 
 The central finding is that input unit selection drives performance: when GPT-4o receives the matched body quote directly (quote-to-quote condition), it reaches AUC 0.781 on the Korean benchmark, exceeding the supervised QuoteCSE baseline (AUC 0.768) without any task-specific training.
 
+Useful Links:
+Song et al. GitHub: https://github.com/dreamgonfly/QuoteCSE (check this is the right repo — the paper is 2023.findings-eacl.52)
+CC-News: link the HuggingFace dataset page stanford-oval/ccnews, since notebook 01 is fully reproducible from it
+
 ---
 
 ## Repository structure
